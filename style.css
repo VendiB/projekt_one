@@ -1,0 +1,109 @@
+body {
+    margin: 5%;
+    padding: 0;
+    background-image: url(/pic/background.jpg);
+    background-size: cover;
+    font-family: url(/fonts/Lora-Italic-VariableFont_wght.ttf);
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-buttons {
+
+    display: flex;
+    margin-right: 20px;
+
+}
+
+.header-buttons a {
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 45px;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.header-buttons a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.main-content h2{
+    margin-top: -30px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.image-row img {
+    width: 270px;
+    margin: 10px;
+    padding: 1rem;
+
+}
+
+.large-image {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.large-image img {
+    width: 300px;
+}
+
+.text-box {
+    margin-left: 20px;
+    max-width: 300px;
+}
